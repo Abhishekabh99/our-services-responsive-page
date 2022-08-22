@@ -6,6 +6,8 @@ A great represtation of CSS3 skills
 
 tech-stack-used - HTML & CSS3 
 
+project type - Frontend
+
 any contributions are welcomed!
 
 good luck!
