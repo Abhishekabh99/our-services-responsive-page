@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Ubuntu:ital,wght@0,300;0,400;1,500&display=swap');
+
+
+* {
+font-family: 'Ubuntu', sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-transform: capitalize;
+}
+
+body {
+  background: rgb(219, 199, 199);
+}
+
+.heading {
+    text-align: center;
+    font-size: 36px;
+    padding: 22px 0px; /*padding y-axis = 22px and x- axis = 0px*/
+    color: rgb(25, 165, 130);
+}
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); /*repeat each card, automatically calculate width, for each card min width is 240px and max width will automatically get calculated*/
+    grid-gap: 15px;
+     padding: 20px; /*padding around the container */
+
+}
+.card-container .card {
+
+    padding: 10px;
+    border: 2px solid rgb(10, 119, 129);
+    border-radius: 10px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 5px 5px rgb(10, 119, 129);
+    
+}
+.card-container .card .card-icon span {
+    margin: 10px;
+    font-size: 32px;
+ color: rgb(53, 129, 244);
+}
+.card-container .card .card-title {
+ color: rgb(13, 168, 183);
+    font-size: 18px;
+margin-top: 5px;
+}
+
+.card-container .card p{
+    font-size: 14px;
+    color: coral;
+    padding: 10px;
+}
+
+.card-container .card a{
+    color: rgb(13, 72, 72);
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+    padding: 10px 0px;
+
+}
+.card-container .card a:hover{
+    color: rgb(27, 146, 146);
+}
